@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7279" started-at="2019-06-19T12:06:40Z" finished-at="2019-06-19T12:06:47Z">
+    <groups>
+      <group name="maling">
+        <method signature="MailTest.loginGmail()[pri:2, instance:com.testng.MailTest@77ec78b9]" name="loginGmail" class="com.testng.MailTest"/>
+      </group> <!-- maling -->
+      <group name="google">
+        <method signature="MailTest.getTitle()[pri:3, instance:com.testng.MailTest@77ec78b9]" name="getTitle" class="com.testng.MailTest"/>
+        <method signature="MailTest.googleSearch()[pri:1, instance:com.testng.MailTest@77ec78b9]" name="googleSearch" class="com.testng.MailTest"/>
+      </group> <!-- google -->
+    </groups>
+    <test name="Default test" duration-ms="7279" started-at="2019-06-19T12:06:40Z" finished-at="2019-06-19T12:06:47Z">
+      <class name="com.testng.MailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testng.MailTest@77ec78b9]" name="setUp" is-config="true" duration-ms="775" started-at="2019-06-19T12:06:40Z" finished-at="2019-06-19T12:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleSearch()[pri:1, instance:com.testng.MailTest@77ec78b9]" name="googleSearch" duration-ms="3006" started-at="2019-06-19T12:06:40Z" finished-at="2019-06-19T12:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.MailTest@77ec78b9]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-06-19T12:06:43Z" finished-at="2019-06-19T12:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testng.MailTest@77ec78b9]" name="setUp" is-config="true" duration-ms="471" started-at="2019-06-19T12:06:43Z" finished-at="2019-06-19T12:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginGmail()[pri:2, instance:com.testng.MailTest@77ec78b9]" name="loginGmail" duration-ms="2496" started-at="2019-06-19T12:06:44Z" finished-at="2019-06-19T12:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.MailTest@77ec78b9]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-19T12:06:46Z" finished-at="2019-06-19T12:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testng.MailTest@77ec78b9]" name="setUp" is-config="true" duration-ms="494" started-at="2019-06-19T12:06:46Z" finished-at="2019-06-19T12:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitle()[pri:3, instance:com.testng.MailTest@77ec78b9]" name="getTitle" duration-ms="8" started-at="2019-06-19T12:06:47Z" finished-at="2019-06-19T12:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.MailTest@77ec78b9]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-06-19T12:06:47Z" finished-at="2019-06-19T12:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.MailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
