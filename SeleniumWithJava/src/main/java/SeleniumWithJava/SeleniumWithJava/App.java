@@ -31,7 +31,7 @@ public class App {
 		driver.get("https://accounts.google.com/");
 		 driver.findElement(By.id("identifierId")).sendKeys("madhavi.cse34@gmail.com");
 		driver.findElement(By.id("identifierNext")).click();
-		driver.findElement(By.name("password")).sendKeys("madhucse34");
+		driver.findElement(By.name("password")).sendKeys("xxxxxxx");
 		//driver.findElement(By.id("passwordNext")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Next']")));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Next']")));
